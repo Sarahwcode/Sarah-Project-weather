@@ -2,19 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>My weather application</title>
   </head>
   <body>
-    <h1>Hello Git</h1>
-    <form>
-      <input type="text" placeholder="enter your email" />
-      <input type="submit" value="email" />
-      <input type="password" value="enter your password" />
-      <input type="submit" value="password" />
-    </form>
-
+    <section>
+      <header>
+        <form id="enter-city">
+          <input
+            id="submit-form"
+            class="search"
+            type="search"
+            placeholder="Enter a city.."
+            required
+          />
+          <input
+            class="submit"
+            type="submit"
+            value="Search"
+            id="submit-forms"
+          />
+        </form>
+      </header>
+      <hr />
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1>Paris</h1>
+            <p class="first-para">
+              <span id="day"> Saturday </span> <span id="hour">15</span>:<span
+                id="minute"
+                >32</span
+              >, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="temprature" id="temp">14°C</div>
+        </div>
+      </main>
+      <hr />
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Sarah Ward</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>

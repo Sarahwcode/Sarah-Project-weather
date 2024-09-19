@@ -1,4 +1,69 @@
+body {
+  background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+  padding: none;
+}
+
+section {
+  display: block;
+  margin: 20px auto;
+  width: 550px;
+  height: 290px;
+  border: 1px solid #f9f7fe;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 150px;
+  padding-right: 100px;
+  border-radius: 20px;
+  background: #f4b0c7;
+  font-family: Moderustic, sans-serif;
+}
 h1 {
+  font-size: 40px;
+}
+form {
+  background-color: #f5c7f7;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+.temprature {
+  position: relative;
+  top: -80px;
+  font-size: 40px;
+  font-weight: bold;
+  left: 370px;
+}
+hr {
+  border-color: #f9f7fe;
+  width: 100%;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
   text-align: center;
-  color: red;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
+strong {
+  font-weight: bold;
+  color: #a393eb;
+}
+.first-para {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.search {
+  width: 320px;
+  height: 30px;
+  border-radius: 10px;
+}
+.submit {
+  border-radius: 20px;
+  font-size: 20px;
+  background: #ad62aa;
 }
